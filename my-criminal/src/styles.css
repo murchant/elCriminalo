@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import "angular-vertical-timeline/dist/vertical-timeline.css";
+@import "~normalize.css";
+
+.timeline {
+  /* background: rgb(141,157,182, 0.5); */
+}
