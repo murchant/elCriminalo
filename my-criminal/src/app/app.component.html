@@ -24,24 +24,28 @@
   <!-- Add some cards to the timeline. It works with *ngFor too -->
 
   <!-- If no value is passed for the date, the current time is used. -->
-  <vertical-timeline-card>
+  <vertical-timeline-card [dateValue]=date1
+  [timeString]="'04:00'">
    <h2 class="titleCard">Wrong Bed</h2>
    <p class="paragraphCard">Conflicting eye witness reports of a long man slithering into the wrong bed in Key Caulker.</p>
   </vertical-timeline-card>
 
   <!-- tomorrow = new Date(2017, 9, 20, 14,34); -->
-  <vertical-timeline-card >
+  <vertical-timeline-card [dateValue]=date2
+  [timeString]="'06:00'">
     <h2 class="titleCard">Juicy's Driving Lesson</h2>
     <p class="paragraphCard">Caught under the influence driving lesson given in the Dublin hills area but managed to slip away despite being arrested.</p>
   </vertical-timeline-card>
 
-  <vertical-timeline-card>
+  <vertical-timeline-card [dateValue]=date3
+  [timeString]="'00:00'">
     <h2 class="titleCard">Self Defense</h2>
     <p class="paragraphCard">The "Nah I punched him but my hands were holding pint glasses" incident in coppers.</p>
   </vertical-timeline-card>
 
   <!-- tomorrow = new Date(2017, 9, 20, 14,34); -->
-  <vertical-timeline-card>
+  <vertical-timeline-card [dateValue]=date4
+  [timeString]="'02:00'">
     <h2 class="titleCard">Man VS Glass Door</h2>
     <p class="paragraphCard">JR manages to slip away after sending a young man through a glass door on Grafton street.</p>
   </vertical-timeline-card>
