@@ -28,6 +28,8 @@
 .intro {
   padding-top: 64px!important;
   padding-bottom: 64px!important;
+  padding-left: 2px;
+  padding-right: 2px;
   text-align: center!important;
   color: white;
   margin-left: auto;
